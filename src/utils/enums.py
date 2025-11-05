@@ -1,0 +1,25 @@
+from enum import Enum
+
+
+class ReturnCode(Enum):
+    SUCCESS = 0
+    FAIL = -1
+
+    ALREADY_IN_PLAYLIST = 100
+    MATCH = 101
+    NO_MATCH = 102
+    FOUND = 103
+    NONE_FOUND = 104
+    NO_PLAYLIST_FOUND = 105
+
+    NO_DATASET = 200
+    NAN_IN_DATASET = 201
+
+    NO_INPUT = 300
+    NO_COMMAND = 301
+    MISSING_ARGUMENT = 302
+    NO_VALIDE_INPUT = 303
+    NOT_LOADED = 304
+
+
+
