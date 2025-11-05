@@ -18,12 +18,12 @@ My project uses APIs and selenium to scrap playlists and determine what songs ar
 
 ## Technologies
 
-**Spotify API (spotipy):** Used for fetching Spotify playlists, songs and to update fetched playlist. Also used to build dataset for Machine learning training.
-**Youtube Music API (ytmusicapi):** Used for fetching Youtube Music playlists, songs and to update fetched playlist. Also used to build dataset for Machine learning training.
-**Selenium:** Because Amazone music has no easily avalibal API, selenium is used to navigate the website. Used for fetching Amazon Music playlists, songs and to update fetched playlist. Also used to build dataset for Machine learning training.
-**pandas**: Used to manage and load Datasets for Machine learning models.
-**sklearn**: Used to train the Machine learning models.
-**joblib**: Used to save trained Machine learning models.
+- **Spotify API (spotipy):** Used for fetching Spotify playlists, songs and to update fetched playlist. Also used to build dataset for Machine learning training.
+- **Youtube Music API (ytmusicapi):** Used for fetching Youtube Music playlists, songs and to update fetched playlist. Also used to build dataset for Machine learning training.
+- **Selenium:** Because Amazone music has no easily avalibal API, selenium is used to navigate the website. Used for fetching Amazon Music playlists, songs and to update fetched playlist. Also used to build dataset for Machine learning training.
+- **pandas**: Used to manage and load Datasets for Machine learning models.
+- **sklearn**: Used to train the Machine learning models.
+- **joblib**: Used to save trained Machine learning models.
 
 ## Installation
 
@@ -51,17 +51,15 @@ python env_setup_help.py
 python main.py
 ```
 
-- Synchronies playlist with name "Sync" between Spotify and Amazon Music:
+- Synchronies playlist with name "Sync" between Spotify and Amazon Music:<br>
   `>>>sync Sync spotify amazon`
-- Synchronies playlist with name "Sync" between all services:
-  `>>>sync Sync`
-  output:
-  ``
-- create dataset with name "songs" and expand it with 5 tracks using Spotify and Youtube Music :
-  `>>>data new songs`
-  `>>>data load songs`
-  `>>>data expand spotify youtube 5`
-  output:
+- Synchronies playlist with name "Sync" between all services:<br>
+  `>>>sync Sync`<br>
+- create dataset with name "songs" and expand it with 5 tracks using Spotify and Youtube Music: <br>
+  `>>>data new songs`<br>
+  `>>>data load songs`<br>
+  `>>>data expand spotify youtube 5`<br>
+  output:<br>
   ```
   adding song 1/5
   adding song 2/5
