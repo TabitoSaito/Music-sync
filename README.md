@@ -27,9 +27,19 @@ My project uses APIs and selenium to scrap playlists and determine what songs ar
 
 ## Installation
 
+### Clone Repository
 ```bash
-git clone https://github.com/TabitoSaito/Music-sync.git
+git clone git@github.com:TabitoSaito/Music-sync.git
 cd Music-sync
+```
+
+### Set Virtual Enviroment
+```bash
+python -m venv venv
+source venv/bin/activate # (Windos: venv\Scripts\activate)
+```
+### Install Requiremantes
+```bash
 pip install -r requirements.txt
 ```
 
@@ -90,3 +100,7 @@ python main.py
 - Beautifying TUI
 - Get access to the closed Amazon Music API and replace selenium approach
 - Add more Tests
+
+## Author
+**Dominik Hölzl**</br>
+[GitHub-Profil](https://github.com/TabitoSaito)
