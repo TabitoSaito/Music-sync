@@ -20,7 +20,7 @@ My project uses APIs and selenium to scrap playlists and determine what songs ar
 
 - **Spotify API (spotipy):** Used for fetching Spotify playlists, songs and to update fetched playlist. Also used to build dataset for Machine learning training.
 - **Youtube Music API (ytmusicapi):** Used for fetching Youtube Music playlists, songs and to update fetched playlist. Also used to build dataset for Machine learning training.
-- **Selenium:** Because Amazone music has no easily avalibal API, selenium is used to navigate the website. Used for fetching Amazon Music playlists, songs and to update fetched playlist. Also used to build dataset for Machine learning training.
+- **Selenium:** Because Amazone music has no easily available API, selenium is used to navigate the website. Used for fetching Amazon Music playlists, songs and to update fetched playlist. Also used to build dataset for Machine learning training.
 - **pandas**: Used to manage and load Datasets for Machine learning models.
 - **sklearn**: Used to train the Machine learning models.
 - **joblib**: Used to save trained Machine learning models.
@@ -36,7 +36,7 @@ cd Music-sync
 ### Set Virtual Enviroment
 ```bash
 python -m venv venv
-source venv/bin/activate # (Windos: venv\Scripts\activate)
+source venv/bin/activate # (Windows: venv\Scripts\activate)
 ```
 ### Install Requiremantes
 ```bash
